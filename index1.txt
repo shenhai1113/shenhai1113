@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习网站</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background-color: rgb(238, 247, 255);
+    }
+
+    * {
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .flex {
+        flex: 1;
+    }
+
+    .bs {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .hz {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        border: 2px solid black;
+    }
+</style>
+
+<body class="flex">
+    <!-- 头部栏 -->
+    <div class="flex column">
+        <div style="height: 150px;" class="bs">
+            <img src="https://s21.ax1x.com/2024/11/01/pADgIv4.png" alt="tu1" width="1510" height="150px">
+        </div>
+        <div class="flex1 flex ">
+            <!-- 导航栏 -->
+            <div style="flex: 1;">
+                <img src="https://s21.ax1x.com/2024/11/01/pAD2nMQ.png" alt="tu2" width="226px" height="600px">
+            </div>
+            <!-- 主区栏 -->
+            <div style="flex: 5;" class="flex column">
+                <div>
+                </div>
+                <!-- 头部栏 -->
+                <div style="height: 50px; background-color: rgba(78, 77, 7, 0.199);"></div>
+                <!-- 数据块1 -->
+                <div style="margin-bottom: 20px; background-color: rgb(203, 203, 203);" class="flex1 flex ">
+
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/justify-content">justify-content</a>
+                        <img src="">
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/justify-items">justify-items</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/justify-self">justify-self</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex">flex</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-basis">flex-basis</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-wrap">flex-wrap</a>
+                    </div>
+                </div>
+                <!-- 数据块2 -->
+                <div style="background-color:rgb(203, 203, 203) ;" class="flex">
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items">align-items</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-content">align-content</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-self">align-self</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">border</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin">margin</a>
+                    </div>
+                    <div class="hz">
+                        <a href="https://flexboxfroggy.com/">盒子游戏</a>
+                    </div>
+                </div>
+                <div style="height: 50px;"></div>
+            </div>
+
+
+
+        </div>
+</body>
+
+</html>
